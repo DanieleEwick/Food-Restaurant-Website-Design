@@ -121,6 +121,7 @@ section {
     max-width: 100%;
     width: 480px;
     height: auto;
+    padding-top: 46px;
 }
 
 .about-text span {
@@ -139,6 +140,9 @@ section {
 
 .heading {
     text-align: center;
+    padding-top: 100px;
+    /* position: relative;
+    top: 500px; */
 }
 
 .heading span {
@@ -147,7 +151,7 @@ section {
 }
 
 .heading h2 {
-    font-size: var(--h2-font);
+    font-size: var(--h2-font);  
 }
 
 .menu-container {
@@ -376,6 +380,10 @@ section {
         text-align: center;        
     }
     
+    .home-text {
+        padding-top: 32px;
+    }
+
     .about {
         grid-template-columns: 1fr;
         text-align: center;
